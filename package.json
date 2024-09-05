@@ -1,0 +1,30 @@
+{
+    "name": "fc-oidc-provider",
+    "version": "1.0.1",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "type": "module",
+    "author": "FC",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "@babel/preset-react": "^7.24.7",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^26.0.1",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "rollup": "^4.21.2"
+    },
+    "dependencies": {
+        "oidc-client": "^1.11.5",
+        "react": "^18.3.1"
+    }
+}
